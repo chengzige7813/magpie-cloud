@@ -1,0 +1,14 @@
+{
+  "name": "magpie-cloud",
+  "version": "1.0.0",
+  "private": true,
+  "description": "magpie 转发服务：把 radeon cloud 等上游暴露为 OpenAI 兼容接口（京东云 DevCloud）",
+  "main": "server.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "serve": "bash bin/start.sh"
+  }
+}
